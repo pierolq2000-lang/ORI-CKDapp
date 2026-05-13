@@ -333,7 +333,7 @@ with col_main_left:
         with st.container(height=h, border=True):
             st.header("Your Oral Health")
             hal = st.selectbox("Do you or people close to you notice bad breath? How  bad from 0 (nothing) to 5 (very bad)?", list(halop.keys()), help="Halitosis:Unpleasant mouth odor")
-            cand = st.selectbox("Have you noticed any white patches, soreness, or a cotton-like feeling in your mouth?", list(candop.keys()), help="Candidiasis:A fungal infection (Candida Albicans)")
+            cand = st.selectbox("Have you noticed white patches, soreness, or a cotton-like feeling in your mouth?", list(candop.keys()), help="Candidiasis:A fungal infection (Candida Albicans)")
             tongue = st.selectbox("Does your tongue have deep lines, cracks, or grooves?", list(lendop.keys()), help="Tongue Fissuring / Scrotal Tongue:Grooves or cracks on tongue surface")
             per = st.selectbox("Do your gums bleed, feel swollen, or do any teeth feel loose?", list(perdop.keys()), help="Periodontal Disease:Disease of gums and supporting bone")
 
